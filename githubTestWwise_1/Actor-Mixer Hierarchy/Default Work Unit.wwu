@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A594A438-E5C2-4086-9911-58813A19FBCD}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{A594A438-E5C2-4086-9911-58813A19FBCD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Test1" ID="{A624CF47-9487-49A9-8B8F-510DA93D2605}" ShortID="572173526">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND122035"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1729786493HpX8s5VczCsl9vVPRKL&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND122035/sfy_IAVsSdldXslVIGIStcVhHAkTuUVvGi"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="5.91940625"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/macintosh/Documents/Soundly Audio/Voices, Scream, Female Professional Screamer, Screeching, Possessed, Panic, Afraid SND122035.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="192000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.0032025620496397116"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.27702161729383507"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E269C79-C0A7-43B8-8713-9F198F9EF585}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{718E78F9-1520-4748-8F9C-390DBB5CE4D9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Voices, Scream, Female Professional Screamer, Screeching, Possessed, Panic, Afraid SND122035" ID="{CFF619AC-16F8-4ABF-BBF4-C6E77B2A135D}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND122035"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.0189572658126501"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.63980349279424"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Voices, Scream, Female Professional Screamer, Screeching, Possessed, Panic, Afraid SND122035.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="370454958"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Voices, Scream, Female Professional Screamer, Screeching, Possessed, Panic, Afraid SND122035" ID="{CFF619AC-16F8-4ABF-BBF4-C6E77B2A135D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
