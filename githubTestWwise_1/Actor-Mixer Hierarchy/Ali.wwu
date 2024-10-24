@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5E9BFABE-5656-4680-8CC4-947D1787DBF1}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Ali" ID="{5E9BFABE-5656-4680-8CC4-947D1787DBF1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Scream" ID="{DA908AE6-95C3-487A-BF7A-97731C577B56}" ShortID="1045912612">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-300</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND122043"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1729786493HpX8s5VczCsl9vVPRKL&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND122043/sfy_XtQdjrGaJpddOUxORCbDXOrBJnflSn"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="15.23878125"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/macintosh/Documents/Soundly Audio/Voices, Scream, Female Professional Screamer, Pain, Agony, Roaring SND122043.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="192000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.11449159327461969"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.25060048038430743"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E269C79-C0A7-43B8-8713-9F198F9EF585}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{718E78F9-1520-4748-8F9C-390DBB5CE4D9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Voices, Scream, Female Professional Screamer, Pain, Agony, Roaring SND122043" ID="{18CEE94B-D51C-4141-A6C1-3A7D751CD510}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND122043"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.7447123448759"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.81884590172138"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Voices, Scream, Female Professional Screamer, Pain, Agony, Roaring SND122043.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="171567998"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Voices, Scream, Female Professional Screamer, Pain, Agony, Roaring SND122043" ID="{18CEE94B-D51C-4141-A6C1-3A7D751CD510}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
