@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{46750B08-BDB7-4624-B382-86E841A288EF}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="harbin" ID="{46750B08-BDB7-4624-B382-86E841A288EF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="STREET AMB" ID="{11BB8211-1A15-451F-9656-D38E9F02720B}" ShortID="42477304">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E269C79-C0A7-43B8-8713-9F198F9EF585}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{718E78F9-1520-4748-8F9C-390DBB5CE4D9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience, Urban, City, Street, Tram Passing, Walla SND1248" ID="{13236484-7829-4595-B131-9BC468BC3871}">
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Ambience, Urban, City, Street, Tram Passing, Walla SND1248.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="381564017"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience, Urban, City, Street, Tram Passing, Walla SND1248" ID="{13236484-7829-4595-B131-9BC468BC3871}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
