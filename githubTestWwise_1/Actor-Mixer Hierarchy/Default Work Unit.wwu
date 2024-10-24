@@ -67,7 +67,6 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<WorkUnit Name="harbin" ID="{46750B08-BDB7-4624-B382-86E841A288EF}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

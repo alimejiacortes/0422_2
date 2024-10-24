@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BFCC7872-F998-4959-A5E1-82EBB9210074}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="PaulGuapo" ID="{BFCC7872-F998-4959-A5E1-82EBB9210074}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="PaulSFX" ID="{06357BC5-B063-4F2F-B603-4590E6737ED8}" ShortID="638101417">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND11641"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1729798810G1xqgIdy0ZAk7NP-KIe&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND11641/sfy_DXFRtWAiMZYBywzeoaTzpXxDKrfbZb"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="40.61925925925926"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/paulvarela/Documents/Soundly Audio/Designed, Drone, Dark, Soundscape SND11641.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.006613756613756613"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.06944444444444445"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E269C79-C0A7-43B8-8713-9F198F9EF585}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{718E78F9-1520-4748-8F9C-390DBB5CE4D9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Designed, Drone, Dark, Soundscape SND11641" ID="{232407EE-B350-4FE0-B68A-7EC535A103D2}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND11641"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.01135802469136"/>
+								<Property Name="TrimEnd" Type="Real64" Value="10.6192592592593"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Designed, Drone, Dark, Soundscape SND11641.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="627015921"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Designed, Drone, Dark, Soundscape SND11641" ID="{232407EE-B350-4FE0-B68A-7EC535A103D2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
