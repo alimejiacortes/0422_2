@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1EDA55AA-2DAA-44B4-895E-5D2123059DBD}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Xavier Cuellar" ID="{1EDA55AA-2DAA-44B4-895E-5D2123059DBD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Xavier" ID="{7B049D51-F7E0-44EB-B08A-887D2F444EA7}" ShortID="575183765">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E269C79-C0A7-43B8-8713-9F198F9EF585}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{718E78F9-1520-4748-8F9C-390DBB5CE4D9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GRITO BRAYAN" ID="{C3CC1489-C2BD-4E74-8BCC-7C5210DE76F9}">
+							<Language>SFX</Language>
+							<AudioFile>GRITO BRAYAN.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="845778468"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GRITO BRAYAN" ID="{C3CC1489-C2BD-4E74-8BCC-7C5210DE76F9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
