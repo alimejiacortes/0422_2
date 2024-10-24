@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
-								<Value>-300</Value>
+								<Value>-810</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
