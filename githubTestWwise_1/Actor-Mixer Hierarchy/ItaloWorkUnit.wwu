@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9B24910C-A483-40EC-8F08-CFFC56CE5F30}" SchemaVersion="119" RootDocumentID="{A594A438-E5C2-4086-9911-58813A19FBCD}" ParentDocumentID="{A594A438-E5C2-4086-9911-58813A19FBCD}">
+<WwiseDocument Type="WorkUnit" ID="{9B24910C-A483-40EC-8F08-CFFC56CE5F30}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="ItaloWorkUnit" ID="{9B24910C-A483-40EC-8F08-CFFC56CE5F30}" OwnerID="{A594A438-E5C2-4086-9911-58813A19FBCD}" PersistMode="Nested"/>
+		<WorkUnit Name="ItaloWorkUnit" ID="{9B24910C-A483-40EC-8F08-CFFC56CE5F30}" PersistMode="Standalone"/>
 	</AudioObjects>
 </WwiseDocument>
