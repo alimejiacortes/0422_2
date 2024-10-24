@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4C8490CB-A18B-458E-830B-5A358832AA2A}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Francis" ID="{4C8490CB-A18B-458E-830B-5A358832AA2A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Ambiente" ID="{B9DCD99D-8D96-42E0-A93D-69AC8B34C61A}" ShortID="152909527">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND0029"/>
+						<Property Name="Soundly:FileName" Type="string" Value="/var/folders/ln/2y0tl_bj55349p7nsgxqpll00000gn/T/tmpfvt48uwn/afcache/1426367345Ff4sxqvM_wkFwGSND0029sfy.sfy"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="35.04"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/francisco.pecerosaei.mx/Documents/Soundly Audio/Ambience, Hospital, Maternity Ward, Baby Crying 03 SND0029 1.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E269C79-C0A7-43B8-8713-9F198F9EF585}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{718E78F9-1520-4748-8F9C-390DBB5CE4D9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience, Hospital, Maternity Ward, Baby Crying 03 SND0029 1" ID="{C823A30F-66AB-4DC7-BB7F-4E20AA1D9F7E}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND0029"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Ambience, Hospital, Maternity Ward, Baby Crying 03 SND0029 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1001562781"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience, Hospital, Maternity Ward, Baby Crying 03 SND0029 1" ID="{C823A30F-66AB-4DC7-BB7F-4E20AA1D9F7E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
