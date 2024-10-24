@@ -4,3 +4,4 @@ githubTestWwise_1/.cache/LMDB/data.mdb
 githubTestWwise_1/.cache/LMDB/lock.mdb
 githubTestWwise_1/githubTestWwise_1.crossover.validationcache
 githubTestWwise_1/githubTestWwise_1.crossover.wsettings
+.DS_Store
